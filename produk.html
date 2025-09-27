@@ -10,25 +10,30 @@
   <div class="atas">
     <nav>
       <a href="index.html"><img src="assets/logo.png" class="logo" alt="KelDua Petshop"></a>
-      <ul>
+
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+      <ul id="nav-links">
         <li><a href="produk.html" class="active">List Produk</a></li>
         <li><a href="panduan.html">Panduan</a></li>
         <li><a href="dok.html">Dokumentasi</a></li>
+        <li>
+          <a href="https://wa.me/+6282255304228" class="btn-link">
+            <img src="assets/icon.png" alt="WA">Hubungi
+          </a>
+        </li>
       </ul>
-      <a href="https://wa.me/+6282255304228" class="btn-link">
-        <img src="assets/icon.png" alt="whatsapp">Hubungi
-      </a>
     </nav>
 
     <div class="isi">
       <h1>Produk Kami</h1>
       <p>Pilih produk terbaik untuk hewan kesayanganmu.</p>
 
-      <div id="produk-list" class="produk-container">
-      </div>
+      <div id="produk-list" class="produk-container"></div>
     </div>
   </div>
 
+  <script src="menu.js"></script>
   <script src="produk.js"></script>
 </body>
 </html>
